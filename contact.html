@@ -4,7 +4,8 @@
 <!-- Mirrored from html.webinane.com/lifeline/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jun 2020 06:23:21 GMT -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Life Line</title>
+<title>Child Care India Foundation</title>
+<link rel="shortcut icon" href="images/logo.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,900italic,700italic,900,700,500italic,500,400italic,300italic,300,100italic,100|Open+Sans:400,300,400italic,300italic,600,600italic,700italic,700,800|Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700" rel="stylesheet" type="text/css">
@@ -68,7 +69,7 @@ $(window).load(function(){
 		<ul>
 			<li>
 				<i class="icon-home"></i>
-				425 Street Name, UK, London
+				Go to Home
 			</li>
 			<li>
 				<i class="icon-phone"></i>
@@ -76,10 +77,14 @@ $(window).load(function(){
 			</li>
 			<li>
 				<i class="icon-envelope"></i>
-				<a href="https://html.webinane.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f695999882979582b695999b8697988f9b979f9ad895999b">[email&#160;protected]</a>
+				<a  class="__cf_email__" data-cfemail="f695999882979582b695999b8697988f9b979f9ad895999b">childcareindia.foundation@gmail.com</a>
+			</li>
+			<li>
+				
+			Reg num:Jay-4-00013-2020-21
 			</li>
 		</ul> 
-		<div class="header-social">
+		<!-- <div class="header-social">
 			<ul>
 				<li><a href="#" title=""><i class="icon-google-plus"></i></a></li>
 				<li><a href="#" title=""><i class="icon-facebook"></i></a></li>
@@ -87,7 +92,7 @@ $(window).load(function(){
 				<li><a href="#" title=""><i class="icon-linkedin"></i></a></li>
 				<li><a href="#" title=""><i class="icon-twitter"></i></a></li>
 			</ul>
-		</div>
+		</div> -->
 	</div>
 </div><!--top bar-->
 <header class="header2 sticky">
@@ -95,7 +100,14 @@ $(window).load(function(){
 		<div class="logo">
 			<a href="index.html" title=""><img src="images/logo.png" alt="Logo" /></a>
 		</div><!-- Logo -->
-		<a class="header-btn" href="#" title="">DONATE NOW</a>
+		<a class="header-btn" onclick="togle_payment_div()" title="">DONATE NOW</a>
+		<div class="payment_div" id="payment_div">
+			<div>
+				<input id="donate_amount" type="number" class="form-control" placeholder="Enter Amount">
+				<p id="donate_amount_error" class="error" style="display: none">Invalid Amount</p>
+				<button id="rzp-button1" class="header-btn" style="float: left;">Donate</button>
+			</div>
+		</div>
 		<nav class="menu">
 			<ul id="menu-navigation">
 				<li class="active"><a href="index.html" title="">Home</a></li>
@@ -117,11 +129,11 @@ $(window).load(function(){
 		<div class="responsive-topbar-info">
 			<ul>
 				<li><i class="fa fa-home"></i> Go to Home</li>
-				<li><i class="fa fa-phone"></i> (031) 6565001</li>
-				<li><i class="fa fa-envelope"></i> <a href="https://html.webinane.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ddef2f3e9fcfee9ddfef2f0edfcf3e4f0fcf4f1b3fef2f0">[email&#160;protected]</a></li>
+				<li><i class="fa fa-phone"></i>+91 7338256896</li>
+				<li><i class="fa fa-envelope"></i> <a class="__cf_email__" data-cfemail="9ddef2f3e9fcfee9ddfef2f0edfcf3e4f0fcf4f1b3fef2f0">childcareindia.foundation@gmail.com</a></li>
 			</ul>
 			<div class="container">
-				<div class="responsive-socialbtns">
+				<!-- <div class="responsive-socialbtns">
 					<ul>
 						<li><a href="#" title=""><i class="fa fa-rss"></i></a></li>
 						<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
@@ -130,7 +142,7 @@ $(window).load(function(){
 						<li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
 						<li><a href="#" title=""><i class="fa fa-pinterest-p"></i></a></li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -175,15 +187,15 @@ $(window).load(function(){
 					<ul class="contact-details">
 						<li style="padding-right: 12px;">
 							<span><i class="icon-home"></i>ADDRESS</span>
-							<p>#11,Abhilsha, 28th cross, geetha colony ,jayanagar 4th block ,bangalore 560011 Asha Deepa Old Age Home</p>
+							<p>#11,Abhilsha, 28th cross</p>
 						</li>
-						<li style="padding-left: 12px;">
+						<li>
 							<span><i class="icon-phone-sign"></i>PHONE NO</span>
 							<p>7338256896</p>
 						</li>
-						<li style="padding-left: 12px;">
+						<li>
 							<span><i class="icon-envelope-alt"></i>EMAIL ID</span>
-							<p>#8901 Marmora Road Chi Minh City, Vietnam</p>
+							<p>childcareindia.foundation@gmail.com</p>
 						</li>
 						<!-- <li style="padding-right: 12px;">
 							<span><i class="icon-link"></i>WEB ADDRESS</span>
@@ -193,27 +205,55 @@ $(window).load(function(){
 				</div>
 			</div>	<!-- Contact Info -->
 			<div class="col-md-6">
-				<div class="form">
-					<h3 class="sub-head">CONTACT US BY MESSAGE</h3>
-					<!-- <p>Anean sit amet nibh ut magna malesuada <span>*</span></p> -->
-					<div id="message"></div>
-					<form method="post"  action="https://html.webinane.com/lifeline/contact.php" name="contactform" id="contactform">
-						<label for="name" accesskey="U">Full name <span>*</span></label>
-						<input name="name" class="form-control input-field" type="text" id="name" size="30" value="" />
-						<label for="email" accesskey="E">Email Address <span>*</span></label>
-						
-						<input name="email" class="form-control input-field" type="text" id="email" size="30" value="" />
-						<label for="comments" accesskey="C">Message <span>*</span></label>
-						<textarea name="comments" id="comments" rows="7" class="form-control input-field"></textarea>
-						<div class="g-recaptcha" data-sitekey="6LelmzAUAAAAAHBE2SJeRMfnzYVxH9RMGQstUij2"></div>
-						<input type="submit" class="form-button submit" id="submit" value="SEND MESSAGE" />
-					</form>
-				</div>
-			</div>	<!-- Message Form -->
+			<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="from_email@example.com"
+          action="https://script.google.com/macros/s/AKfycbyehEaYKZXKhYCwHV93aS5h9TE3i4X-usbwMpqmFg/exec">
+
+				 
+                     
+                            <div class="form-row">
+                                <div class="form-group col-md-10" style="padding-left: 0px !important;"> 
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" style="border-radius: 22px;" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group col-md-10" style="padding-left: 0px !important;">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" style="border-radius: 22px;" />
+                                    <div class="validation"></div>
+                                </div>
+                            </div>
+                            <!-- <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div> -->
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" style="border-radius: 17px;margin-left: 2px;"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                            <!-- <div class="text-center"><button class="btn btn-primary" type="submit">Send Message</button></div> -->
+                        
+                
+
+
+
+		       
+
+
+		        <div class="text-left" style="margin-left: 9px;"><button class="btn btn-primary" type="submit">Send Message</button></div>
+
+    </form>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div style="display:none;" id="thankyou_message">
+        <h2>
+            <em>Thanks</em> for contacting us!
+            We will get back to you soon!
+        </h2>
+    </div>
+				<!-- Message Form -->
 		</div>	
 	</div>	
 		
-	<div class="social-connect">	
+	<!-- <div class="social-connect">	
 		<div class="container">
 			<h3>FIND US ON SOCIAL MEDIA.</h3>
 			<ul class="social-bar">
@@ -224,7 +264,7 @@ $(window).load(function(){
 				<li><a title="" href="#"><img alt="" src="images/pinterest.jpg"></a></li>
 			</ul>			
 		</div>
-	</div><!-- Social Media Bar -->
+	</div> --><!-- Social Media Bar -->
 	
 	
 </section>
@@ -282,7 +322,7 @@ $(window).load(function(){
 				<ul class="contact-details">
 					<li>
 						<span><i class="icon-home"></i>ADDRESS</span>
-						<p>#11,Abhilsha, 28th cross, geetha colony ,jayanagar 4th block ,bangalore 560011 Asha Deepa Old Age Home
+						<p>#11,Abhilsha, 28th cross
 						</p>
 					</li>
 					<li>
@@ -291,7 +331,7 @@ $(window).load(function(){
 					</li>
 					<li>
 						<span><i class="icon-envelope-alt"></i>EMAIL ID</span>
-						<p>#8901 Marmora Road Chi Minh City, Vietnam</p>
+						<p>childcareindia.foundation@gmail.com/p>
 					</li>
 					<!-- <li>
 						<span><i class="icon-link"></i>WEB ADDRESS</span>
@@ -376,7 +416,8 @@ $(window).load(function(){
 	
 </div><!-- Side Panel -->
 <!-- Scripts -->
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-2.2.2.js" type="text/javascript"></script>
+<!-- <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+<script src="js/jquery-2.2.2.js" type="text/javascript"></script>
 <script src="js/perfect-scrollbar.jquery.js" type="text/javascript"></script>
 <script src="js/perfect-scrollbar.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/jquery.jigowatt.js"></script><!-- AJAX Form Submit -->
@@ -386,7 +427,14 @@ $(window).load(function(){
 <script src="js/styleswitcher.js"></script>
 <script defer src="js/jquery.flexslider.js"></script>
 <script defer src="js/jquery.mousewheel.js"></script>
-<script src="../../www.google.com/recaptcha/api.js"></script>
+<!-- <script src="../../www.google.com/recaptcha/api.js"></script> -->
+
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="./js/payment.js"></script>
+<script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+<script src="./js/contact.js"></script>
 </body>
 
 <!-- Mirrored from html.webinane.com/lifeline/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jun 2020 06:23:23 GMT -->

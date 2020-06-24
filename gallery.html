@@ -3,7 +3,8 @@
 <!-- Mirrored from html.webinane.com/lifeline/gallery-three-column.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jun 2020 06:23:43 GMT -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Life Line</title>
+<title>Child Care India Foundation</title>
+<link rel="shortcut icon" href="images/logo.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,900italic,700italic,900,700,500italic,500,400italic,300italic,300,100italic,100|Open+Sans:400,300,400italic,300italic,600,600italic,700italic,700,800|Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700" rel='stylesheet' type='text/css'>
@@ -85,7 +86,7 @@ jQuery("#layerslider").layerSlider({
 		<ul>
 			<li>
 				<i class="icon-home"></i>
-				425 Street Name, UK, London
+				India
 			</li>
 			<li>
 				<i class="icon-phone"></i>
@@ -93,10 +94,10 @@ jQuery("#layerslider").layerSlider({
 			</li>
 			<li>
 				<i class="icon-envelope"></i>
-				<a href="https://html.webinane.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="52313d3c2633312612313d3f22333c2b3f333b3e7c313d3f">[email&#160;protected]</a>
+				<a href="https://html.webinane.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="52313d3c2633312612313d3f22333c2b3f333b3e7c313d3f">childcareindia.foundation@gmail.com</a>
 			</li>
 		</ul> 
-		<div class="header-social">
+		<!-- <div class="header-social">
 			<ul>
 				<li><a href="#" title=""><i class="icon-google-plus"></i></a></li>
 				<li><a href="#" title=""><i class="icon-facebook"></i></a></li>
@@ -104,7 +105,7 @@ jQuery("#layerslider").layerSlider({
 				<li><a href="#" title=""><i class="icon-linkedin"></i></a></li>
 				<li><a href="#" title=""><i class="icon-twitter"></i></a></li>
 			</ul>
-		</div>
+		</div> -->
 	</div>
 </div><!--top bar-->
 <header class="header2 sticky">
@@ -112,7 +113,14 @@ jQuery("#layerslider").layerSlider({
 		<div class="logo">
 			<a href="index.html" title=""><img src="images/logo.png" alt="Logo" /></a>
 		</div><!-- Logo -->
-		<a class="header-btn" href="#" title="">DONATE NOW</a>
+		<a class="header-btn" onclick="togle_payment_div()" title="">DONATE NOW</a>
+		<div class="payment_div" id="payment_div">
+			<div>
+				<input id="donate_amount" type="number" class="form-control" placeholder="Enter Amount">
+				<p id="donate_amount_error" class="error" style="display: none">Invalid Amount</p>
+				<button id="rzp-button1" class="header-btn" style="float: left;">Donate</button>
+			</div>
+		</div>
 		<nav class="menu">
 			<ul id="menu-navigation">
 				<li class="active"><a href="index.html" title="">Home</a></li>
@@ -121,11 +129,8 @@ jQuery("#layerslider").layerSlider({
 				<li><a href="gallery.html" title="">Gallery</a></li>
 				<li><a href="contact.html" title="">Contact Us</a></li>
 					
-					</ul><!-- Drop Down -->				
-				</li>
-					</ul>
-				</li>
-			</ul>   
+			</ul><!-- Drop Down -->				
+				
 		</nav><!-- Menu -->
 	</div>		
 </header>
@@ -135,7 +140,7 @@ jQuery("#layerslider").layerSlider({
 			<ul>
 				<li><i class="fa fa-home"></i> Go to Home</li>
 				<li><i class="fa fa-phone"></i> +91 7338256896</li>
-				<li><i class="fa fa-envelope"></i> <a href="https://html.webinane.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d291bdbca6b3b1a692b1bdbfa2b3bcabbfb3bbbefcb1bdbf">[email&#160;protected]</a></li>
+				<li><i class="fa fa-envelope"></i> <a href="https://html.webinane.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d291bdbca6b3b1a692b1bdbfa2b3bcabbfb3bbbefcb1bdbf">childcareindia.foundation@gmail.com</a></li>
 			</ul>
 			<div class="container">
 				<div class="responsive-socialbtns">
@@ -219,6 +224,130 @@ jQuery("#layerslider").layerSlider({
 	
 
 </section>
+<section class="inner-page">
+	<div class="container">
+			<div class="page-title">
+				<h1>Our Programs</h1>
+			</div>	
+			<div class="gallery-content tab-content" id="myTabContent">
+				<div id="events" class="tab-pane fade active in">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image1.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image2.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image3.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image4.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image5.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image6.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image7.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image8.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image9.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image10.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image11.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image12.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image13.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image14.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image15.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image16.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image17.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image18.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image19.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image20.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image21.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image22.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image23.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image24.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image25.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image26.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image27.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/image28.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;" />
+						</div>
+						<div class="col-md-4">
+							<img src="images/image29.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+						<div class="col-md-4">
+							<img src="images/image30.jpeg" alt="" style="width: 382px;margin: 10px;padding: 10px;"/>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	
+
+</section>
 </div>
 <footer>
 	<div class="container">
@@ -265,7 +394,7 @@ jQuery("#layerslider").layerSlider({
 				<ul class="contact-details">
 					<li>
 						<span><i class="icon-home"></i>ADDRESS</span>
-						<p>#11,Abhilsha, 28th cross, geetha colony ,jayanagar 4th block ,bangalore 560011 Asha Deepa Old Age Home
+						<p>#11,Abhilsha, 28th cross
 						</p>
 					</li>
 					<li>
@@ -274,7 +403,7 @@ jQuery("#layerslider").layerSlider({
 					</li>
 					<li>
 						<span><i class="icon-envelope-alt"></i>EMAIL ID</span>
-						<p>#8901 Marmora Road Chi Minh City, Vietnam</p>
+						<p>childcareindia.foundation@gmail.com</p>
 					</li>
 					<!-- <li>
 						<span><i class="icon-link"></i>WEB ADDRESS</span>
@@ -358,7 +487,10 @@ jQuery("#layerslider").layerSlider({
 	</div>
 	
 </div><!-- Side Panel -->
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="./js/payment.js"></script>
+</body>
 
 <!-- Mirrored from html.webinane.com/lifeline/gallery-three-column.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jun 2020 06:23:45 GMT -->
 </html>
