@@ -1,10 +1,10 @@
 var options = {
-    "key": "rzp_test_qhJum4SPDX1c0M", 
+    "key": "rzp_live_WGOaG2TJ4BU2N9", 
     "amount": "50000", 
     "currency": "INR",
     "name": "Child Care India Foundation",
     "description": "",
-    "image": "https://example.com/your_logo",
+    "image": "images/logo.png",
    // "order_id": "order_9A33XWu170gUtm", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     "handler": function (response){
         alert(response.razorpay_payment_id);
