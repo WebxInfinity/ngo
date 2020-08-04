@@ -1,5 +1,5 @@
 var options = {
-    "key": "rzp_live_WGOaG2TJ4BU2N9", 
+    "key": "rzp_live_ywqdqvCNS15VhM", 
     "amount": "50000", 
     "currency": "INR",
     "name": "Child Care India Foundation",
